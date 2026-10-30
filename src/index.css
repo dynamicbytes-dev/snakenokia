@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Prevenir zoom, rebote elástico y selección en móvil */
+  .touch-none {
+    touch-action: none;
+    -webkit-touch-callout: none;
+    user-select: none;
+  }
+}
+
+/* Efecto sutil de scanlines y textura de LCD retro */
+.lcd-screen {
+  background-color: #949f76;
+  background-image: linear-gradient(rgba(45, 56, 28, 0.04) 50%, transparent 50%),
+                    linear-gradient(90deg, rgba(45, 56, 28, 0.04) 50%, transparent 50%);
+  background-size: 4px 4px;
+}
+
+/* Tipografía de display retro */
+.font-pixel {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  letter-spacing: -0.05em;
+}

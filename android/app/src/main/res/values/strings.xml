@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Snake Nokia</string>
+    <string name="title_activity_main">Snake Nokia</string>
+    <string name="package_name">com.retro.snakenokia</string>
+    <string name="custom_url_scheme">com.retro.snakenokia</string>
+</resources>
